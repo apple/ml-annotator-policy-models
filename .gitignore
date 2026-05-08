@@ -1,0 +1,73 @@
+artifacts
+
+# Generated data, results, and figures
+/data/
+results/
+figures/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+*.manifest
+*.spec
+
+*.egg-info/
+build/
+dist/
+.ruff_cache
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+
+# PEP 582; used by e.g. github.com/David-OConnor/pyflow and github.com/pdm-project/pdm
+__pypackages__/
+
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+*.pt
+*.jsonl
+*.env
+altair*
+*.txt
+.DS_Store

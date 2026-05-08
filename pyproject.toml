@@ -1,0 +1,51 @@
+[project]
+name = "annotator-policy-models"
+version = "0.1.0"
+description = ""
+authors = [{name="Alex Oesterling", email="aoesterling@g.harvard.edu"}, {name="Donghao Ren", email="donghao@apple.com"}, {name="Yannick Assogba", email="yassogba@apple.com"}, {name="Dominik Moritz", email="domoritz@apple.com"}, {name="Sunnie S. Y. Kim", email="sunniesuhyoung@apple.com"}, {name="Leon Gatys", email="lgatys@apple.com"}, {name="Fred Hohman", email="fredhohman@apple.com"}]
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy>=1.25.2",
+    "pytest>=8.3.5",
+    "torch>=2.6",
+    "scipy>=1.11.2",
+    "jupyterlab>=4.3.6",
+    "altair>=5.5.0",
+    "pandas>=2.1.0",
+    "python-dotenv>=0.9.9",
+    "tqdm>=4.67.1",
+    "jupyter>=1.1.1",
+    "transformers>=4.50.3",
+    "google-genai>=1.2.0",
+    "sparsemax>=0.1.9",
+    "aix360>=0.3.0",
+    "cvxpy>=1.4.0",
+    "vl-convert-python>=1.3.0",
+    "openai>=2.30.0",
+    "datasets>=3.0.0",
+]
+
+[tool.setuptools]
+packages = ["safe_dictionary_learning", "safe_dictionary_learning.data"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+exclude = ["third_party", ".venv", "build", "dist"]
+
+[tool.ruff.lint]
+select = ["E", "F", "D", "PL", "UP", "NPY", "B"]
+ignore = [
+    "D203", "D213", "ANN401", "D400",
+    "PLR0913", "PLR2004", "E501"
+]
+
+[tool.ruff.lint.per-file-ignores]
+"tests/**" = ["D"]
+
+[tool.ruff.format]
+quote-style = "double"
+
+[tool.uv]
+package = true

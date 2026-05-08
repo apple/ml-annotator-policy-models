@@ -1,0 +1,40 @@
+citation-file-format: 1.2.0
+creator:
+  - family-names: Oesterling
+    given-names: Alex
+  - family-names: Ren
+    given-names: Donghao
+  - family-names: Assogba
+    given-names: Yannick
+  - family-names: Moritz
+    given-names: Dominik
+  - family-names: Kim
+    given-names: Sunnie S. Y.
+  - family-names: Gatys
+    given-names: Leon
+  - family-names: Hohman
+    given-names: Fred
+title: Annotator Policy Models
+version: 1.0.0
+url: https://github.com/apple/ml-annotator-policy-models
+preferred-citation:
+  type: conference-paper
+  authors:
+    - family-names: Oesterling
+      given-names: Alex
+    - family-names: Ren
+      given-names: Donghao
+    - family-names: Assogba
+      given-names: Yannick
+    - family-names: Moritz
+      given-names: Dominik
+    - family-names: Kim
+      given-names: Sunnie S. Y.
+    - family-names: Leon
+      given-names: Gatys
+    - family-names: Hohman
+      given-names: Fred
+  title: "Understanding Annotator Safety Policy with Interpretability"
+  year: 2026
+  collection-title: "ACM Conference on Fairness, Accountability, and Transparency"
+  doi: 10.1145/3805689.3806472
